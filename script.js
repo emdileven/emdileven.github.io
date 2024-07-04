@@ -6,6 +6,13 @@ const alumniData = [
         ig: "https://instagram.com/raiszainuri",
         linkedin: "https://linkedin.com/in/raiszainuri"
     },
+    {
+        name: "Rais Zainuri",
+        campus: "Perjuangan University",
+        photo: "https://avatars.githubusercontent.com/u/35108804?v=4",
+        ig: "https://instagram.com/raiszainuri",
+        linkedin: "https://linkedin.com/in/raiszainuri"
+    },
     // Tambahkan data alumni lainnya di sini
 ];
 
@@ -34,12 +41,16 @@ function createAlumniCard(alumni) {
     igLink.textContent = 'Instagram';
     igLink.target = '_blank';
     
+    const separator = document.createElement('span');
+    separator.textContent = '  ';
+
     const linkedinLink = document.createElement('a');
     linkedinLink.href = alumni.linkedin;
     linkedinLink.textContent = 'LinkedIn';
     linkedinLink.target = '_blank';
-    
+
     links.appendChild(igLink);
+    links.appendChild(separator);
     links.appendChild(linkedinLink);
     
     card.appendChild(img);
@@ -56,5 +67,12 @@ document.addEventListener('DOMContentLoaded', () => {
     alumniData.forEach(alumni => {
         const col = createAlumniCard(alumni);
         alumniContainer.appendChild(col);
+    });
+
+    // Inisialisasi Masonry setelah elemen ditambahkan ke DOM
+    new Masonry('#alumniContainer', {
+        itemSelector: '.col-md-4',
+        columnWidth: '.col-md-4',
+        percentPosition: true
     });
 });

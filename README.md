@@ -1,6 +1,6 @@
-# 🎓📚 Buku Alumni 🎉✨
+# 🎓📚 MD-11 Alumni 🎉✨
 
-Selamat datang di proyek **Buku Alumni**! 📖👩‍🎓👨‍🎓
+Selamat datang di proyek **MD-11 Alumni**! 📖👩‍🎓👨‍🎓
 
 Proyek ini bertujuan untuk menampilkan buku alumni Bangkit 2024 kelas MD-11 dengan informasi seperti foto, nama, asal kampus, dan link ke Instagram serta LinkedIn. 🌟
 

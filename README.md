@@ -2,7 +2,7 @@
 
 Selamat datang di proyek **Buku Alumni**! 📖👩‍🎓👨‍🎓
 
-Proyek ini bertujuan untuk menampilkan buku alumni dengan informasi seperti foto, nama, asal kampus, dan link ke Instagram serta LinkedIn. Dengan tampilan yang menarik menggunakan Bootstrap, Anda dapat dengan mudah melihat dan mencari informasi alumni. 🌟
+Proyek ini bertujuan untuk menampilkan buku alumni Bangkit 2024 kelas MD-11 dengan informasi seperti foto, nama, asal kampus, dan link ke Instagram serta LinkedIn. 🌟
 
 ## 🚀 Demo
 
@@ -18,14 +18,10 @@ Proyek ini dibangun menggunakan teknologi berikut:
 
 ## 📂 Struktur Proyek
 
-📁 project-root
-│
-├── 📄 index.html
-│
-├── 📄 styles.css
-│
-├── 📄 script.js
-│
+📁 project-root  
+├── 📄 index.html  
+├── 📄 styles.css  
+├── 📄 script.js  
 └── 📄 README.md
 
 ## 📋 Panduan Instalasi
@@ -96,6 +92,3 @@ Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untu
 ---
 
 Terima kasih telah mengunjungi proyek kami! Semoga hari Anda menyenangkan! 🌈😊
-```
-
-Anda dapat menyesuaikan dan menambahkan informasi tambahan sesuai kebutuhan proyek Anda. README.md ini dirancang untuk memberikan panduan yang jelas dan mudah dipahami oleh siapa saja yang ingin menggunakan atau berkontribusi pada proyek Anda.

@@ -60,10 +60,11 @@ Untuk menambahkan data alumni baru, edit file `script.js` dan tambahkan objek ba
 const alumniData = [
     {
         name: "Nama Alumni",
+        nickname: "Nama Panggilan",
         campus: "Asal Kampus",
-        photo: "URL Foto",
         ig: "Link Instagram",
-        linkedin: "Link LinkedIn"
+        linkedin: "Link LinkedIn",
+        photo: "URL Foto",
     },
     // Tambahkan data alumni lainnya di sini
 ];

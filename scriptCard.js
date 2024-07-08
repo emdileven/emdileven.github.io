@@ -1,6 +1,6 @@
 // Mengambil elemen dengan class 'card-object' dan 'face'
 var cards = document.querySelectorAll(".card-object");
-var faceButtons = document.querySelectorAll(".face");
+var faceButtons = document.querySelectorAll(".face.front");
 
 // Menambahkan event listener untuk setiap tombol 'face'
 faceButtons.forEach(function (button) {
@@ -14,7 +14,7 @@ function flipCard(event) {
   var card = btnFace.closest(".card-object");
 
   if (card.classList.contains("flip-in")) {
-    closeCards();
+    // closeCards();
   } else {
     closeCards();
     openCard(card);

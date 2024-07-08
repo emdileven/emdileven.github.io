@@ -279,8 +279,8 @@ function createAlumniCard(alumni) {
               <div class="info-wrapper">
                 <div class="info-title">${alumni.name}</div>
                 <div class="info-content">
-                <a href="${alumni.ig}">Instagram</a>
-                <a href="${alumni.linkedin}">Linkedln</a>
+                <a href="${alumni.ig}" target="_blank">Instagram</a>
+                <a href="${alumni.linkedin}" target="_blank">Linkedln</a>
                 </div>
               </div>
             </div>
